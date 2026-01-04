@@ -21,3 +21,10 @@
 - Run Time of javascript
 - Electro.js (Desktop Application)
 - React Native (Mobile Application)
+
+## DOM Manipulation (Concept)
+
+- Document Object Model (DOM)
+- Update Content
+- Styling
+- Add HTML elements
