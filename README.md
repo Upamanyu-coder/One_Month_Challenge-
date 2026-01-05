@@ -21,3 +21,4 @@
 - Functional Components can be made stateful now, with the use of hooks
 - Stateless components : UI cannot be updated but state can be updated
 - Stateful components : UI & state can be updated
+- Components can have its own properties (props)
