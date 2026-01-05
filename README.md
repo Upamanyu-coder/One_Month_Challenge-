@@ -1,30 +1,23 @@
-## **One Months Challenge Next JS**
+# React :
 
-**Happy New Year 2026**
+- the library for web and native user interfaces
+- Built By Facebook
+- use to built UI, Single Page Application (SPA)
+- one of the most popular frontend framework
+- Huge community, lots pf packages avialable
 
-# JavaScript
+## Virtual DOM
 
-- Programming Language
-- Runs on browser
-- High-Level Programming Language
-- Interpreted Programmin Language
-- Dynamically typed programming language
-- used to build interactive web pages
+- Uses Virtual DOM for rendering (Virtual DOM:-lightweight copy of real DOM)
 
-# -- ECMA = European Computer Manufacturers Association
+* Process Of how Virtual DOM works
 
-- ECMA Script (ES6-2015 Drastical Changes )
-  _"W3School"_
+- Whenever state changes occurs : - React updates the virtual DOM - Compare the virtual DOM with the previous Real DOM - Updates the only changed UI parts in the Real DOM (Reco)
 
-# Node.Js (single Thread application )
+## Components
 
-- Run Time of javascript
-- Electro.js (Desktop Application)
-- React Native (Mobile Application)
-
-## DOM Manipulation (Concept)
-
-- Document Object Model (DOM)
-- Update Content
-- Styling
-- Add HTML elements
+- UI block, reusable pices of code
+- Functional Components (stateless), Class Components (stateful)
+- Functional Components can be made stateful now, with the use of hooks
+- Stateless components : UI cannot be updated but state can be updated
+- Stateful components : UI & state can be updated
