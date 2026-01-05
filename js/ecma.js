@@ -19,15 +19,15 @@ console.log(result);
 
 // Objects Destructing
 
-// const user = {
-//   email: "contact@yubrazdhakal.com.np",
-//   password: "Contact@MAC1",
-//   role: "Admin",
-// };
+const user = {
+  email: "contact@yubrazdhakal.com.np",
+  password: "Contact@MAC1",
+  role: "Admin",
+};
 
-// console.log(email);
-// console.log(password);
-// console.log(role);
+console.log(user.email);
+console.log(user.password);
+console.log(user.role);
 
 // Array Destructuring
 
