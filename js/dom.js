@@ -14,13 +14,12 @@ const paragraph = document.querySelector("p");
 paragraph.innerText = "We are very gladful to have you CEO of J.V. Studio";
 
 const button = document.getElementById("btn");
-button.innerText = "Submit =>";
+// button.innerText = "Submit =>";
 
 button.addEventListener("click", () => {
   console.log("hover");
   button.style.background = "Green";
-      button.style.color = "White";
-      button.innerText = 
+  button.style.color = "White";
 });
 
 button.addEventListener("mouseenter", () => {

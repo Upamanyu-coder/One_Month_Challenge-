@@ -25,9 +25,11 @@ const user = {
   role: "Admin",
 };
 
-console.log(user.email);
-console.log(user.password);
-console.log(user.role);
+// console.log(user.email);
+// console.log(user.password);
+// console.log(user.role);
+
+// Destructuring
 
 // Array Destructuring
 
