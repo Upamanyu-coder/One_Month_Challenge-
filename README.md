@@ -10,9 +10,12 @@
 
 - Uses Virtual DOM for rendering (Virtual DOM:-lightweight copy of real DOM)
 
-* Process Of how Virtual DOM works
+* - Process Of how Virtual DOM works
 
-- Whenever state changes occurs : - React updates the virtual DOM - Compare the virtual DOM with the previous Real DOM - Updates the only changed UI parts in the Real DOM (Reco)
+- Whenever state changes occurs :
+- React updates the virtual DOM
+- Compare the virtual DOM with the previous Real DOM
+- Updates the only changed UI parts in the Real DOM (Recoci )
 
 ## Components
 
@@ -22,3 +25,9 @@
 - Stateless components : UI cannot be updated but state can be updated
 - Stateful components : UI & state can be updated
 - Components can have its own properties (props)
+
+# JSX file
+
+- js + html files
+
+# Props ()
