@@ -28,6 +28,22 @@
 
 # JSX file
 
-- js + html files
+- JS+HTML files
 
-# Props ()
+# Props (Component Properties)
+
+## State
+
+- objects that is mutable (changeables)
+- State is updated on user interaction, event trigger or api calls
+- whenever state value changes, UI is re-rendered
+
+## Hooks
+
+- According to the REACTS, Hooks are the special function
+- It is used to make fuctional component stateful.
+- using hooks, we can state management in functional component.
+
+1. useState
+2. useEffect
+3. useRef (HTML element catcher)
