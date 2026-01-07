@@ -12,8 +12,8 @@ function Card(props) {
         height: "10rem",
       }}
     >
-      <h2>Card Title</h2>
-      <p>This is a description of the card.</p>
+      <h1>{props.title}</h1>
+      <h3>{props.subtitle}</h3>
     </div>
   );
 }

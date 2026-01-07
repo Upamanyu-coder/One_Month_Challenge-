@@ -2,16 +2,26 @@ import Card from "./Card.jsx";
 
 function App() {
   const name = "Yubraj Dhakal";
+  const students = [
+    "Ram",
+    "Sita",
+    "Hari",
+    "Krishna",
+    "Govinda",
+    "Shyam",
+    "Gopal",
+    "Basudev",
+  ];
   return (
     <>
       <div>
         <h1>Hello, {name}!</h1>
-        <Card label="Card 1" />
-        <Card label="Card 2" />
-        <Card label="Card 3" />
-        <Card label="Card 4" />
-        <Card label="Card 5" />
-        <Card label="Card 6" />
+
+        {students.map((students) => (
+          <Card title={students} subtitle="Subtitle 1">
+            {" "}
+          </Card>
+        ))}
       </div>
     </>
   );
